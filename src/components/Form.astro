@@ -4,12 +4,15 @@ import Input from "./Input.astro"
 ---
 
 <div class="bg-zinc-400 w-full rounded-3xl flex justify-evenly items-center py-20">
-    <form action="" class="border w-1/3 flex flex-col gap-10">
-        <Input/>
-        <Input/>
-        <Input/>
-        <Input/>
-        <Input/>
+    <form action="" class="w-1/3 flex flex-col gap-10">
+        <Input title="NOMBRE:" type="name"/>
+        <Input title="EMAIL:" type="email"/>
+        <Input title="TELEFONO:" type="tel"/>
+        <Input title="SELECCIONAR SERVICIO" type=""/>
+        <Input title="MENSAJE:" type=""/>
+        <input type="submit"
+            class="text-black border bg-zinc-100 p-4 cursor-pointer text-xl"
+        >
     </form>
     <FormSVG/>
 </div>

@@ -1,14 +1,18 @@
 ---
 interface Props {
-    
+    title: string;
+    type: string;
 }
+
+const { title, type } = Astro.props;
+
 ---
 
 <div>
-    <label for="name" class="text-3xl text-black">
-        Nombre:
+    <label for={type} class="text-2xl text-black">
+        {title}
     </label><br>
-    <input type="text" id="name"
+    <input type={type} id={type} required
         class="bg-zinc-400 border-b-4 w-full"
     >
 </div>

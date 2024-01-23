@@ -1,9 +1,19 @@
-<article class="bg-zinc-900 flex flex-col gap-8 items-center justify-center text-xl">
+---
+interface Props {
+    title?: string;
+    text: string;
+}
+
+const { title, text } = Astro.props;
+
+---
+
+<article class="bg-zinc-900 flex flex-col gap-8 items-center justify-center text-xl p-4">
     <h1 class="text-center">
-        TRABAJA CON NOSOTROS!
+        {title}
     </h1>
     
     <button class="bg-white py-4 px-8 text-black font-semibold">
-        CONTACTANOS
+        {text}
     </button>
 </article>
