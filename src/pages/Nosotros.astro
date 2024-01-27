@@ -1,7 +1,43 @@
 ---
+import PathTriangle from "../components/PathTriangle.astro";
+import PreFooter from "../components/PreFooter.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Nosotros">
-    <h1>Nosotros</h1>
+    <section class="w-full bg-zinc-900">
+        <div class="relative flex justify-center items-center">
+            <div class="flex flex-col justify-center items-center gap-4 font-bold text-xl absolute">
+                <h2>CONTACTENOS</h2>
+                <p class="w-3/4 text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam aliquid soluta rem. Quaerat possimus quos inventore consequatur itaque cumque, et numquam ut rem, ipsam porro adipisci velit quisquam non? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat omnis nostrum veniam debitis, harum perspiciatis quos consectetur, iusto a facere alias aperiam. Sint facere adipisci vel cupiditate natus eveniet perspiciatis.
+                </p>
+                <PathTriangle/>
+            </div>
+            <img src="" alt="Image-Services" class="bg-lime-500 w-full h-96">
+        </div>
+    </section>
+    <section class="bg-zinc-900 pt-10">
+        <div class="flex flex-col justify-center items-center gap-4">
+            <h2 class="text-2xl">SERVICIOS INFORMATICOS</h2>
+            <hr class="w-48 h-2 bg-white">
+        </div>
+        <div class="h-96 text-center flex items-center justify-center px-12 text-2xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis et nam aperiam mollitia corrupti. Aut alias illo fugiat repellat? Totam omnis similique excepturi quod a expedita, libero praesentium. Quisquam, et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla nisi magni eos ratione omnis culpa corporis dolore, quaerat doloremque aut excepturi perspiciatis at in eveniet porro placeat quibusdam sed nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque hic, fuga corporis commodi architecto nihil ex inventore placeat repellat quam voluptatibus quibusdam accusantium, ab blanditiis maxime est dignissimos iusto?
+        </div>
+    </section>
+    <section class="flex flex-wrap justify-evenly px-20 gap-8 bg-zinc-900">
+        <div class="bg-lime-500 w-1/3 h-72"></div>
+        <div class="bg-lime-500 w-1/3 h-72"></div>
+        <div class="bg-lime-500 w-1/2 h-72"></div>
+        <p class="h-72 w-1/3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repellat hic, magni minus fuga dolor. Ducimus voluptatum voluptatibus asperiores, modi commodi veniam expedita officia maxime praesentium quas voluptatem unde esse!
+        </p>
+    </section>
+    <section class="bg-zinc-900 py-10 px-60">
+        <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni aliquam harum sit quod quaerat, necessitatibus mollitia vero reiciendis aliquid quae itaque soluta ullam eveniet cumque ducimus fugiat! Dolore, eligendi dicta?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet cum dolorum neque necessitatibus quae? Tempore ipsa adipisci sint fugit facilis in necessitatibus nisi id sapiente temporibus. Ratione eveniet magni ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quae nesciunt tempora harum rem laudantium explicabo, fugit eius quo reprehenderit, error accusamus quis. Ipsum nobis blanditiis earum delectus quasi! Consequuntur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione molestias ullam numquam quis vero quas culpa ex esse totam, ducimus cumque consequatur ad. Pariatur temporibus totam suscipit, qui atque iusto!
+        </p>
+    </section>
+    <PreFooter title="TRABAJA CON NOSOTROS" text="CONTACTANOS"></PreFooter>
 </Layout>
