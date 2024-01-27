@@ -1,12 +1,13 @@
 ---
 interface Props {
 	title: string;
+    link: string;
 }
 
-const { title } = Astro.props;
+const { title, link } = Astro.props;
 
 ---
 
-<a href=" " class="text-3xl w-48 text-center">
+<a href={link} class="text-3xl w-48 text-center">
     {title}
 </a>

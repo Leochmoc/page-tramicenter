@@ -1,0 +1,34 @@
+---
+import PathTriangle from "../components/PathTriangle.astro";
+import SOne from "../components/SOne.astro";
+import STwo from "../components/STwo.astro";
+import SThree from "../components/SThree.astro";
+import SFour from "../components/SFour.astro";
+import PreFooter from "../components/PreFooter.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Servicios">
+    <section class="w-full bg-zinc-900">
+        <div class="relative flex justify-center items-center">
+            <div class="flex flex-col justify-center items-center gap-2 font-bold text-xl absolute">
+                <h2>SERVICIOS</h2>
+                <PathTriangle/>
+            </div>
+            <img src="" alt="Image-Services" class="bg-lime-500 w-full h-96">
+        </div>
+    </section>
+    <section class="relative flex items-center bg-zinc-400">
+        <SOne/>
+    </section>
+    <section class="relative flex items-center bg-zinc-400">
+        <STwo/>
+    </section>
+    <section class="relative flex items-center bg-zinc-400">
+        <SThree/>
+    </section>
+    <section class="relative flex items-center bg-zinc-400">
+        <SFour/>
+    </section>
+    <PreFooter text="CONTACTANOS"/>
+</Layout>

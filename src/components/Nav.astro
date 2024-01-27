@@ -1,13 +1,15 @@
 ---
 
-import Element from '../components/Element.astro';
+import Element from './Element.astro';
 
 ---
 <nav class="w-full h-44 bg-zinc-900 flex justify-around items-center">
-	<Element title='Inicio'/>
-	<Element title='Servicios'/>
-	<img class="h-full"
+	<Element link='/Inicio' title='Inicio'/>
+	<Element link='/Servicios' title='Servicios'/>
+	<a href="/Inicio" class="h-full">
+		<img class="h-full"
 		src="favicon.svg" alt="logo">
-	<Element title='Contactenos'/>
-	<Element title='Nosotros'/>
+	</a>
+	<Element link='/Contactenos' title='Contactenos'/>
+	<Element link='/Nosotros' title='Nosotros'/>
 </nav>
