@@ -1,10 +1,12 @@
 ---
 interface Props {
     title?: string;
+    link: string;
     text: string;
+    target?: string;
 }
 
-const { title, text } = Astro.props;
+const { title, link, text, target } = Astro.props;
 
 ---
 
@@ -14,6 +16,6 @@ const { title, text } = Astro.props;
     </h1>
     
     <button class="bg-white py-4 px-8 text-black font-semibold">
-        {text}
+        <a href={link} target={target}>{text}</a>
     </button>
 </article>
