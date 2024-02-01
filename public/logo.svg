@@ -7,46 +7,32 @@
       }
 
       .cls-2 {
-        fill: none;
-        stroke: #fff;
-        stroke-miterlimit: 10;
-        stroke-width: 5px;
-      }
-
-      .cls-3 {
         fill: url(#Degradado_sin_nombre_58-2);
       }
 
-      .cls-4 {
+      .cls-3 {
         fill: url(#Degradado_sin_nombre_58);
       }
 
-      .cls-5 {
+      .cls-4 {
         fill: url(#Degradado_sin_nombre_58-4);
       }
 
-      .cls-6 {
+      .cls-5 {
         fill: #ffed00;
       }
     </style>
-    <linearGradient id="Degradado_sin_nombre_58" data-name="Degradado sin nombre 58" x1="383.68" y1="-108.03" x2="638.27" y2="-108.03" gradientTransform="translate(-4.96 597.73) rotate(-45)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="Degradado_sin_nombre_58" data-name="Degradado sin nombre 58" x1="-130.68" y1="106.07" x2="129.32" y2="106.07" gradientTransform="translate(210.43 77.73) rotate(-45)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#2e2f7b"/>
       <stop offset="1" stop-color="#0f7dc1"/>
     </linearGradient>
-    <linearGradient id="Degradado_sin_nombre_58-2" data-name="Degradado sin nombre 58" x1="1302.05" y1="-47.45" x2="1556.62" y2="-47.45" gradientTransform="translate(1204.22 1197.15) rotate(-135)" xlink:href="#Degradado_sin_nombre_58"/>
-    <linearGradient id="Degradado_sin_nombre_58-3" data-name="Degradado sin nombre 58" x1="1241.39" y1="870.86" x2="1495.98" y2="870.86" gradientTransform="translate(1803.63 -12.04) rotate(135)" xlink:href="#Degradado_sin_nombre_58"/>
-    <linearGradient id="Degradado_sin_nombre_58-4" data-name="Degradado sin nombre 58" x1="323.15" y1="810.25" x2="577.72" y2="810.25" gradientTransform="translate(594.45 -611.45) rotate(45)" xlink:href="#Degradado_sin_nombre_58"/>
+    <linearGradient id="Degradado_sin_nombre_58-2" data-name="Degradado sin nombre 58" x1="51.53" y1="-568.74" x2="311.51" y2="-568.74" gradientTransform="translate(684.22 -58.25) rotate(-135)" xlink:href="#Degradado_sin_nombre_58"/>
+    <linearGradient id="Degradado_sin_nombre_58-3" data-name="Degradado sin nombre 58" x1="727.03" y1="-385.81" x2="987.03" y2="-385.81" gradientTransform="translate(548.24 -532.04) rotate(135)" xlink:href="#Degradado_sin_nombre_58"/>
+    <linearGradient id="Degradado_sin_nombre_58-4" data-name="Degradado sin nombre 58" x1="544.19" y1="289.73" x2="804.17" y2="289.73" gradientTransform="translate(74.45 -396.06) rotate(45)" xlink:href="#Degradado_sin_nombre_58"/>
   </defs>
-  <polygon class="cls-4" points="309.96 10 489.94 190.02 309.96 370.05 249.97 310.04 369.95 190.02 189.98 10 309.96 10"/>
-  <polygon class="cls-3" points="10 190.02 189.98 10 369.95 190.02 309.96 250.03 189.98 130.02 10 310.04 10 190.02"/>
-  <polygon class="cls-1" points="190.04 490 10.06 309.98 190.04 129.95 250.03 189.96 130.05 309.98 310.02 490 190.04 490"/>
-  <polygon class="cls-5" points="490 309.98 310.02 490 130.05 309.98 190.04 249.97 310.02 369.98 490 189.96 490 309.98"/>
-  <rect class="cls-6" x="207.54" y="207.61" width="84.85" height="84.85" transform="translate(-103.59 250.03) rotate(-45.01)"/>
-  <g>
-    <polygon class="cls-2" points="309.96 10 489.94 190.02 309.96 370.05 249.97 310.04 369.95 190.02 189.98 10 309.96 10"/>
-    <polygon class="cls-2" points="10 190.02 189.98 10 369.95 190.02 309.96 250.03 189.98 130.02 10 310.04 10 190.02"/>
-    <polygon class="cls-2" points="190.04 490 10.06 309.98 190.04 129.95 250.03 189.96 130.05 309.98 310.02 490 190.04 490"/>
-    <polygon class="cls-2" points="490 309.98 310.02 490 130.05 309.98 190.04 249.97 310.02 369.98 490 189.96 490 309.98"/>
-    <rect class="cls-2" x="207.54" y="207.61" width="84.85" height="84.85" transform="translate(-103.59 250.03) rotate(-45.01)"/>
-  </g>
+  <polygon class="cls-3" points="315.59 0 499.39 183.85 315.59 367.7 254.32 306.41 376.86 183.85 193.06 0 315.59 0"/>
+  <polygon class="cls-2" points=".54 184.94 184.34 1.09 368.14 184.94 306.88 246.22 184.34 123.65 .54 307.5 .54 184.94"/>
+  <polygon class="cls-1" points="184.41 500 .61 316.15 184.41 132.3 245.68 193.59 123.14 316.15 306.94 500 184.41 500"/>
+  <polygon class="cls-4" points="499.46 316.15 315.66 500 131.86 316.15 193.12 254.87 315.66 377.43 499.46 193.59 499.46 316.15"/>
+  <rect class="cls-5" x="212.99" y="213.6" width="73.95" height="73.95" transform="translate(-103.97 250.15) rotate(-45)"/>
 </svg>

@@ -9,9 +9,14 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Tramicenter">
 	<main>
 		<section class="w-full bg-zinc-900">
-			<img src="inicio.webp" alt="One Image" class="w-full">
-			<div class="h-96 text-center flex items-center justify-center px-12 text-2xl">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis et nam aperiam mollitia corrupti. Aut alias illo fugiat repellat? Totam omnis similique excepturi quod a expedita, libero praesentium. Quisquam, et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla nisi magni eos ratione omnis culpa corporis dolore, quaerat doloremque aut excepturi perspiciatis at in eveniet porro placeat quibusdam sed nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque hic, fuga corporis commodi architecto nihil ex inventore placeat repellat quam voluptatibus quibusdam accusantium, ab blanditiis maxime est dignissimos iusto?
+			<div class="relative flex justify-center">
+				<img src="bg-one.png" alt="Inicio_Image" class="w-full">
+				<h2 class="absolute text-6xl text-black pt-20 w-2/3 text-center tracking-wider">
+					¡Descubre la Facilidad de los Trámites con Tramicenter!
+				</h2>
+			</div>
+			<div class="h-56 text-center flex items-center justify-center px-48 text-3xl">
+				Simplifica tu vida y elimina la complejidad de los trámites con Tramicenter. Deja que nosotros nos encarguemos, permitiéndote disfrutar de un proceso sin complicaciones. ¡Confía en nosotros para hacer que tus trámites sean más fáciles que nunca!
 			</div>
 		</section>
 		
@@ -21,13 +26,13 @@ import Layout from '../layouts/Layout.astro';
 				<hr class="w-48 h-2 bg-white">
 			</div>
 			<div class="flex flex-wrap items-center justify-center">
-				<div class="flex w-full justify-evenly pb-6 pt-12">
-				<Service />
-				<Service />
+				<div class="flex w-full justify-evenly pb-8 pt-14">
+				<Service title="Facturación Electrónica" link="service4.png"/>
+				<Service title="Desarrollo Web" link="service3.png"/>
 				</div>
-				<div class="flex w-full justify-evenly pt-6 pb-12">
-				<Service />
-				<Service />
+				<div class="flex w-full justify-evenly pt-8 pb-14">
+				<Service title="Venta de Dominios" link="service1.png"/>
+				<Service title="Venta de Hostings" link="service2.png"/>
 				</div>
 			</div>
 		</section>
