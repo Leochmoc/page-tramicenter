@@ -1,34 +1,45 @@
 ---
 import PathTriangle from "../components/PathTriangle.astro";
-import SOne from "../components/SOne.astro";
-import STwo from "../components/STwo.astro";
-import SThree from "../components/SThree.astro";
-import SFour from "../components/SFour.astro";
 import PreFooter from "../components/PreFooter.astro";
 import Layout from "../layouts/Layout.astro";
+import ServicesTop from "../components/ServicesTop.astro";
+import ServicesBot from "../components/ServicesBot.astro";
 ---
 
 <Layout title="Servicios">
     <section class="w-full bg-zinc-900">
         <div class="relative flex justify-center items-center">
             <div class="flex flex-col justify-center items-center gap-2 font-bold text-xl absolute">
-                <h2>SERVICIOS</h2>
+                <h2 class="text-6xl">SERVICIOS</h2>
                 <PathTriangle/>
             </div>
-            <img src="" alt="Image-Services" class="bg-lime-500 w-full h-96">
+            <img src="bg-two.png" alt="Image_Services" class="">
+            <div class="absolute w-full h-full bg-blue-500 opacity-15"></div>
         </div>
     </section>
-    <section class="relative flex items-center bg-zinc-400">
-        <SOne/>
-    </section>
-    <section class="relative flex items-center bg-zinc-400">
-        <STwo/>
-    </section>
-    <section class="relative flex items-center bg-zinc-400">
-        <SThree/>
-    </section>
-    <section class="relative flex items-center bg-zinc-400">
-        <SFour/>
-    </section>
-    <PreFooter text="CONTACTANOS" link="/Contactenos"/>
+    <ServicesTop
+    title="facturación electrónica"
+    minitext="Optimiza tu negocio con nuestro innovador sistema de facturación electrónica. Agiliza procesos, cumple con normativas fiscales y mejora la eficiencia."
+    text="¡Descubre la solución perfecta para simplificar tu contabilidad y potenciar tu crecimiento empresarial!"
+    img="service4.png"
+    />
+    <ServicesBot
+    title="desarrollo web"
+    minitext="Optimiza tu negocio con nuestro innovador sistema de facturación electrónica. Agiliza procesos, cumple con normativas fiscales y mejora la eficiencia."
+    text="¡Descubre la solución perfecta para simplificar tu contabilidad y potenciar tu crecimiento empresarial!"
+    img="service3.png"
+    />
+    <ServicesTop
+    title="venta de dominios"
+    minitext="Asegura tu identidad en línea con nuestro servicio de venta de dominios. Elige un nombre único y relevante para tu marca. Garantizamos registro fácil, renovación sin complicaciones y soporte dedicado."
+    text="¡Reserva tu dominio ahora y establece tu presencia digital con confianza!"
+    img="service1.png"
+    />
+    <ServicesBot
+    title="venta de hosting"
+    minitext="Potencia tu presencia en línea con nuestro servicio de hosting premium. Ofrecemos velocidad, seguridad y soporte excepcional. Tu sitio web merece la mejor infraestructura."
+    text="¡Elige nuestro hosting y garantiza una experiencia online sin igual para tu audiencia!"
+    img="service2.png"
+    />
+    <PreFooter text="CONTACTANOS" title="¡Escribenos Ahora!" link="/Contactenos"/>
 </Layout>
