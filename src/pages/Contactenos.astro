@@ -4,6 +4,7 @@ import Form from "../components/Form.astro"
 import PreFooter from "../components/PreFooter.astro";
 import Map from "../components/Map.astro"
 import Layout from "../layouts/Layout.astro";
+import WhatsAppWhite from "../components/WhatsAppWhite.astro";
 ---
 
 <Layout title="Contactenos">
@@ -23,8 +24,8 @@ import Layout from "../layouts/Layout.astro";
             <div class="absolute w-full h-full bg-blue-950 opacity-50"></div>
         </div>
     </section>
-    
-    <section class="flex justify-center items-center px-16 py-20 bg-zinc-900">
+    <section class="flex flex-col gap-4 justify-center items-center px-16 pt-6 pb-20 bg-zinc-900">
+        <WhatsAppWhite/>
         <Form/>
     </section>
     
