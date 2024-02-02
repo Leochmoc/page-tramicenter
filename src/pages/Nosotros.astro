@@ -8,36 +8,47 @@ import Layout from "../layouts/Layout.astro";
     <section class="w-full bg-zinc-900">
         <div class="relative flex justify-center items-center">
             <div class="flex flex-col justify-center items-center gap-4 font-bold text-xl absolute">
-                <h2>CONTACTENOS</h2>
-                <p class="w-3/4 text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam aliquid soluta rem. Quaerat possimus quos inventore consequatur itaque cumque, et numquam ut rem, ipsam porro adipisci velit quisquam non? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat omnis nostrum veniam debitis, harum perspiciatis quos consectetur, iusto a facere alias aperiam. Sint facere adipisci vel cupiditate natus eveniet perspiciatis.
-                </p>
+                <h2 class="text-6xl">
+                    NOSOTROS
+                </h2>
                 <PathTriangle/>
             </div>
-            <img src="Nosotros.jpg" alt="Image-Services">
+            <img src="bg-four.png" alt="Image-Services">
+            <div class="absolute w-full h-full bg-blue-500 opacity-15"></div>
         </div>
     </section>
-    <section class="bg-zinc-900 pt-10">
+    <section class="bg-zinc-900 pt-10 flex flex-col items-center">
         <div class="flex flex-col justify-center items-center gap-4">
-            <h2 class="text-2xl">SERVICIOS INFORMATICOS</h2>
+            <h2 class="text-3xl uppercase">sobre Nosotros</h2>
             <hr class="w-48 h-2 bg-white">
         </div>
-        <div class="h-96 text-center flex items-center justify-center px-12 text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis et nam aperiam mollitia corrupti. Aut alias illo fugiat repellat? Totam omnis similique excepturi quod a expedita, libero praesentium. Quisquam, et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla nisi magni eos ratione omnis culpa corporis dolore, quaerat doloremque aut excepturi perspiciatis at in eveniet porro placeat quibusdam sed nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque hic, fuga corporis commodi architecto nihil ex inventore placeat repellat quam voluptatibus quibusdam accusantium, ab blanditiis maxime est dignissimos iusto?
+        <div class="text-center flex items-center justify-center w-3/4 py-12 text-2xl">
+            Nuestra razón de ser radica en la pasión por simplificar tu vida, liberándote de la carga de los trámites para que puedas dedicar tu tiempo y energía a lo que realmente importa. En Tramicenter, cada trámite es una oportunidad para demostrar nuestro compromiso inquebrantable de hacer que tu experiencia sea más fluida y sin complicaciones.
         </div>
     </section>
-    <section class="flex flex-wrap justify-evenly px-20 gap-8 bg-zinc-900">
-        <div class="bg-lime-500 w-1/3 h-72"></div>
-        <div class="bg-lime-500 w-1/3 h-72"></div>
-        <div class="bg-lime-500 w-1/2 h-72"></div>
-        <p class="h-72 w-1/3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repellat hic, magni minus fuga dolor. Ducimus voluptatum voluptatibus asperiores, modi commodi veniam expedita officia maxime praesentium quas voluptatem unde esse!
-        </p>
+    <section class="flex flex-col gap-28 px-20 bg-zinc-900">
+        <article class="flex w-7/8 justify-around gap-10">
+            <div class="w-1/2 h-80">
+                <img src="nosotros1.png" alt="">
+            </div>
+            <div class="w-1/2 h-80">
+                <img src="nosotros2.png" alt="">
+            </div>
+        </article>
+
+        <article class="flex w-7/8 gap-10">
+            <div class="w-2/3 h-96">
+                <img src="nosotros3.png" alt="">
+            </div>
+            <p class="flex items-center w-1/3  text-xl text-center">
+                En el núcleo de nuestra operación está la eficiencia, donde cada acción está meticulosamente planeada para ahorrarte tiempo y esfuerzo. Reconocemos la valiosidad de tu tiempo y trabajamos incansablemente para que cada trámite sea una experiencia rápida y exitosa.
+            </p>
+        </article>
     </section>
     <section class="bg-zinc-900 py-10 px-60">
-        <p class="text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni aliquam harum sit quod quaerat, necessitatibus mollitia vero reiciendis aliquid quae itaque soluta ullam eveniet cumque ducimus fugiat! Dolore, eligendi dicta?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet cum dolorum neque necessitatibus quae? Tempore ipsa adipisci sint fugit facilis in necessitatibus nisi id sapiente temporibus. Ratione eveniet magni ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quae nesciunt tempora harum rem laudantium explicabo, fugit eius quo reprehenderit, error accusamus quis. Ipsum nobis blanditiis earum delectus quasi! Consequuntur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione molestias ullam numquam quis vero quas culpa ex esse totam, ducimus cumque consequatur ad. Pariatur temporibus totam suscipit, qui atque iusto!
+        <p class="text-center text-2xl">
+            No solo gestionamos trámites; creamos historias de éxito. Cada gestión que nos confías se convierte en un relato de eficiencia, confianza y resultados positivos. Descubre la profundidad de la experiencia con Tramicenter. Permítenos no solo gestionar tus trámites, sino también ser el impulso detrás de tus éxitos administrativos.
         </p>
     </section>
-    <PreFooter title="TRABAJA CON NOSOTROS" text="CONTACTANOS" link="/Contactenos"></PreFooter>
+    <PreFooter title="TRABAJA CON NOSOTROS" text="CONTACTANOS" link="/Contactenos">
 </Layout>
